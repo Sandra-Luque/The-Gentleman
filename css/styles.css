@@ -1,5 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700italic,400italic,700,300,900);
 
+hr{
+	width: 100%;
+	opacity: .5;
+	margin: 20px;
+	color:#ddd6dc; 
+}
 .header{background: #2E2E2E;
 	height: 100px;
 }
@@ -7,17 +13,19 @@
 color: #fff;
 }
 .logo p{
-	
+	font-size: 2em;
+	font-family: arial;
+
 }
 .logo strong{
-	font-family: 'Lato', sans-serif;
-	font-size: 2em;
+		padding-left: 5px;
 }
 .menu{
 	display: flex;
 	list-style: none;
 }
 .menu li{
+	margin-top: 10px;
 	flex: auto;	
 }
 .menu a{
@@ -80,7 +88,20 @@ footer{
 	background: #2E2E2E; 
 	color: #fff;
 }
-footer span{
+.logo-pie{
+	font-size: 1.5em;
+	padding-left: 5px;
+	opacity: .2;
+
+}
+.pie-1{
+	color: #bd9eba;
+	font-size: 1.2em;
+}
+.pie-2 span{
+	color: #bd9eba;
+}
+.pie span{
 	color: #B40486;
 }
 footer a{
@@ -95,11 +116,11 @@ footer a{
 .gru-caja-1{
 	padding: 20px;
 }
-.circulo{
+i{
+	text-align: center;
 	border-radius: 100%;
-	border:dashed;
-	width: 50px;
-	height: 50px;
+	border: 1px dashed;
+	padding: 15px;
 	display: inline-block;
+	opacity: .2;
 }
-	
